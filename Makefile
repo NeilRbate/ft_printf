@@ -6,15 +6,14 @@
 #    By: jbarbate <marvin@42.fr>                    +#+  +:+       +#+         #
 #                                                 +#+#+#+#+#+   +#+            #
 #    Created: 2022/11/11 09:43:44 by jbarbate          #+#    #+#              #
-#    Updated: 2022/11/18 15:57:49 by jbarbate         ###   ########.fr        #
+#    Updated: 2022/11/21 14:13:45 by jbarbate         ###   ########.fr        #
 #                                                                              #
 # **************************************************************************** #
 
 GCC = gcc
-SRCS = ./srcs/*.c
-HEADER = -I ./includes/ft_printf.h libft.a
+SRCS = ft_printf.c
 OBJS = ${SRCS:.c=.o}
-NAME = ./a.out
+NAME = libftprintf.a
 CFLAGS = -Wall -Wextra -Werror
 
 .c.o:

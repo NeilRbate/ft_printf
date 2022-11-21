@@ -6,11 +6,10 @@
 /*   By: jbarbate <marvin@42.fr>                    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2022/11/18 15:59:49 by jbarbate          #+#    #+#             */
-/*   Updated: 2022/11/21 09:13:09 by jbarbate         ###   ########.fr       */
+/*   Updated: 2022/11/21 14:11:57 by jbarbate         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
-#include <stdio.h>
 #include <stdarg.h>
 #include <unistd.h>
 #include <stdlib.h>
