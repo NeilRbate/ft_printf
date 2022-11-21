@@ -6,7 +6,7 @@
 #    By: jbarbate <marvin@42.fr>                    +#+  +:+       +#+         #
 #                                                 +#+#+#+#+#+   +#+            #
 #    Created: 2022/11/11 09:43:44 by jbarbate          #+#    #+#              #
-#    Updated: 2022/11/21 14:13:45 by jbarbate         ###   ########.fr        #
+#    Updated: 2022/11/21 17:09:05 by jbarbate         ###   ########.fr        #
 #                                                                              #
 # **************************************************************************** #
 
@@ -17,7 +17,7 @@ NAME = libftprintf.a
 CFLAGS = -Wall -Wextra -Werror
 
 .c.o:
-	${GCC} ${CFLAGS} ${HEADER} -c $< -o ${<:.c=.o}
+	${GCC} ${CFLAGS} -c $< -o ${<:.c=.o}
 
 ${NAME}: ${OBJS}
 	ar rcs ${NAME} ${OBJS}
