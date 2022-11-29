@@ -6,7 +6,7 @@
 /*   By: jbarbate <marvin@42.fr>                    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2022/11/11 09:57:21 by jbarbate          #+#    #+#             */
-/*   Updated: 2022/11/21 17:37:53 by jbarbate         ###   ########.fr       */
+/*   Updated: 2022/11/22 09:21:44 by jbarbate         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -78,7 +78,7 @@ static unsigned int	ft_print(const char format, va_list args)
 			return ((write(1, "-", 1) + (nbase((j *= -1), "0123456789", &i))));
 		return (nbase(j, "0123456789", &i));
 	}
-	return (0);
+	return (write(1, &format, 1));
 }
 
 int	ft_printf(const char *format, ...)
